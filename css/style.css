@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    margin-bottom: 0;
+    background: #CDA434;
+}
+header{
+    background: #000000;
+}
+.up{
+    background: #000000;
+}
+.up button {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background: #000000;
+    cursor: pointer;
+    border: none;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+.up button img {
+    width: 100%;
+    height: 100px;
+    display: block;
+    border: none;
+}
+.buttons{
+    border-bottom: #ffffff solid 3px;
+}
+.buttons ul {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background: #000000;
+    display: flex;
+    gap: 21%;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: large;
+}
+.buttons a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 8px 15px;
+    border-radius: 10px;
+    display: block;
+    white-space: nowrap;
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+.buttons li{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+.buttons a:hover {
+    text-decoration: underline;
+}
+.buttons{
+    align-items: center;
+}
+.bgI{
+    background-image: url('../img/fm.png');
+}
+.bgP{
+    background-image: url('../img/ph.png');   
+}
+.bgM{
+    background-image: url(../img/mt.png);
+}
+.bgD{
+    background-image: url(../img/ls.png);
+}
+.bgA{
+    background-color: #000000;
+}
+.bgI, .bgP, .bgM, .bgD, .bgA{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 800px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    border-top: white 2px solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Playfair Display";
+}
+.bgI, .bgD, .bgM, .bgP, .bgA{
+    color: white;
+}
+.bgI h1, .bgP h1, .intro h1, .bgM h1, .bgD h1, .bgA h1{
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+.bgI h2, .bgP h2, .intro h2, .bgM h2, .bgD h2, .bgA h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+.dostoini{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 400px;
+    border-radius: 10px;
+
+}
+footer{
+    background: #000000;
+}
+
+.info{
+    margin-top: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+.line{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 70px;
+}
+.line h1{
+    min-width: 30%;
+}
+.line h2{
+    min-width: 25%;
+    text-align: left;
+}
+.line div{
+    flex: 1;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.raskol{
+    flex: 1;
+    max-width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bible{
+    margin-top: 20%;
+}
+.bible h1{
+    text-align: center;
+}
+.bible h2{
+    text-align: center;
+}
+.raskol img {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ra{
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.fm{
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.sv{
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.lu{
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.pi{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.finale{
+    gap: 200px; 
+    padding-top: 30px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding-bottom: 30px; 
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+.finale div{
+    text-align: center; 
+    min-height: 100px; 
+    min-width: 300px; 
+    border: solid 3px;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+}
